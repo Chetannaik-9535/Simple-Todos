@@ -1,0 +1,43 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.Todo-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.TodoItem-description {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #000000;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  padding: 8px;
+}
+
+.button {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ff0b37;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid #ff8542;
+  height: 60px;
+  width: 140px;
+  background-color: transparent;
+  background-size: cover;
+  text-align: center;
+  padding: 8px;
+  margin: 15px;
+}
